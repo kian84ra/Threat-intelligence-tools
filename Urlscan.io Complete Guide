@@ -1,0 +1,17 @@
+# Urlscan.io Complete Guide
+Urlscan.io is a free service for scanning and analysis website.
+
+# Features
+  Domain/IP identification 
+  Resource tracking
+  Screenshot capture
+  Technology detection 
+
+# Usage 
+1.Open the link [urlscan.io](https://urlscan.io).
+2.Enter target URL
+3.Now you have the result that contains :
+          -Summary tab
+          -HTTP requests
+          -Redirect chains
+          -External links
