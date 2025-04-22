@@ -1,0 +1,47 @@
+# Phishing Email Analysis Tool
+
+#  Email Header Analysis
+    Full email header parsing
+    Visualized email routing path
+    SPF/DKIM/DMARC validation
+
+ # Attachment Analysis
+    File Inspection
+         Hash generation (MD5, SHA1, SHA256, SHA512)
+         File type identification via magic numbers
+         Embedded macro extraction (for Office docs)
+
+    VirusTotal Integration
+         Automatic submission via API
+         Detection ratio display
+         Community verdict analysis
+
+# URL Analysis 
+    Automatic URL scanning (Urlscan.io integration)
+    Domain reputation checks
+    Screenshot capture of linked pages
+
+# Threat Information 
+    IOC (Indicators of Compromise) extraction
+    TTP (Tactics, Techniques, Procedures) mapping
+    MITRE ATT&CK framework alignment
+
+# Scanning Features
+    Automated Checks
+         Urlscan.io submission
+         WHOIS lookup
+         SSL certificate inspection
+
+    Reputation Services
+         Cisco Talos integration
+         Google Safe Browsing API
+         PhishTank verification
+
+# Instruction
+  1.Upload .eml or .msg files
+  2.Review automated analysis:
+      - Authentication Results (SPF/DKIM/DMARC)
+      - X-Headers (X-Mailer, X-Originating-IP)
+      - Received-SPF chains
+  3.Export IOCs to CSV/STIX format
+
