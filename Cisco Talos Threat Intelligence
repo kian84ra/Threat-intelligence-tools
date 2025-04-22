@@ -1,0 +1,40 @@
+# Cisco Talos Threat Intelligence
+# Summary 
+  Cisco Talos is one of the largest commercial threat intelligence teams, providing:
+       Real-time threat data collection
+       Malware analysis
+       Vulnerability research
+       Network intrusion detection
+
+# Features
+  Umbrella Ranking : Scores domains/IPs (0-100 risk scale)
+   Threat Classification
+      - Malware
+      - Phishing
+      - Botnet C2
+      - Spam sources
+
+# Threat Classification
+    Malware Analysis
+        - Ransomware
+        - Trojans
+        - Spyware
+    Network Threats
+        - Botnet C2 servers
+        - Phishing sites
+        - Spam sources
+    Emerging Threats
+        - Zero-day vulnerabilities
+        - New attack techniques
+# Usage
+  1.Navigate to Talos Reputation Center
+  2.Search for indicators:
+      Enter an IP (e.g., 185.143.223.41)
+      Domain (e.g., example.com)
+      SHA256 hash (for files)
+
+  3.Review results:
+      Reputation score (0-100, higher = more malicious)
+      Threat classification (Malware/Phishing/Botnet)
+      Geolocation and ASN data
+      Historical activity timeline
